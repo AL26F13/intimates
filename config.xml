@@ -5,14 +5,14 @@
      id    = "com.phonegap.Esqueleto"  
      version  = "1.0.0">  
 	 
-   <name>PROYECTO DAM</name>  
+   <name>intimates</name>  
    
    <description>  
-     lady gaga
+     lenceria
    </description>  
    
-   <author href="https://build.phonegap.com" email="jcampos50373@gmail.com">  
-       Jennifer Campos Corona
+   <author href="https://build.phonegap.com" email="fermonmtz@gmail.com">  
+       Fer Montaño
    </author>  
    
    <!-- Personaliza la aplicacion y plataforma  -->  
