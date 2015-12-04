@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header" align="center">
+    <h1>SEX INTIMATES</h1>
+    <P> catalogo de lenceria </P>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div align="center">
+   <img src="images/extra/bienvenida.jpg">
+  </div>
+    <div style="float:right;">
+    
+ <a href="#leftpanel3" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-mini">menu</a>
+  <!--leftpanel-->
+   <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-theme="a">
+
+        <h3>Lenceria</h3>
+        <a href="#" id="btnlistado" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-bullets ui-btn-icon-right">Catalogo </a>
+        <a href="#" id="btnbuscar"class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-search ui-btn-icon-right">Buscar por nombre</a>
+        
+
+	</div>
+  <!--leftpanel -->
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>EveryBody...</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+
+
+
+ <!-- Catalogo -->
+ <div data-role="page" id="catalogo" >   
+  <div data-role="header" align="center">
+    
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div id="contenido">
+   
+   </div>
+  </div>
+
+  <div data-role="footer">
+    
+  </div>
+ </div>  
+ <!-- Catalogo -->
+
+
+ 
+ <!-- Buscar -->
+ <div data-role="page" id="catalogo" >   
+  <div data-role="header" align="center">
+    <h1> Buscar Producto </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <p> Buscar producto por nombre </p>
+   <input name="txtbuscar" type="text" maxlength="25">
+   
+  </div>
+
+  <div data-role="footer">
+    
+  </div>
+ </div>  
+ <!-- Buscar -->
+ 
+
+ </body>
+</html> 
